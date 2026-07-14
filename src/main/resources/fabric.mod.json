@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "legacyskyboxes",
+	"version": "1.0.0",
+	"name": "Legacy Skyboxes",
+	"description": "OptiFine/MCPatcher sky format implementation for 1.8.9",
+	"authors": [
+		{
+			"name": "Lunasa Prismriver",
+			"contact": {
+				"email": "lunasa@prismriver.dev"
+			}
+		}
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.prismriver.legacyskyboxes.LegacySkyboxes"
+		]
+	},
+	"mixins": [
+		"legacyskyboxes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "1.8.9"
+	}
+}
