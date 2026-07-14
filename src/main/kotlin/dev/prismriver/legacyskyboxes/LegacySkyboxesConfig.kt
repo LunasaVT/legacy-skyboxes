@@ -11,6 +11,8 @@ class LegacySkyboxesConfig {
     var enabled: Boolean = true
     var showOverworldForUnknownDimension: Boolean = true
     var debug: Boolean = false
+    var ctmEnabled: Boolean = true
+    var ctmDebug: Boolean = false
 
     fun save() {
         try {

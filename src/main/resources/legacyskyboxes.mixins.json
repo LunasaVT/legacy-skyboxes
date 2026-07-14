@@ -4,7 +4,13 @@
 	"package": "dev.prismriver.legacyskyboxes.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"client": [
+		"MixinBlockModelRenderer_Ctm",
+		"MixinBuiltInResourcePack_CtmAccessor",
+		"MixinCustomResourcePack_CtmAccessor",
 		"MixinMinecraft_ReloadListener",
+		"MixinSimpleReloadableResourceManager_CtmPacks",
+		"MixinTextureAtlas_CtmAccessor",
+		"MixinTextureAtlas_CtmStitch",
 		"MixinWorldRenderer_CustomCelestial",
 		"MixinWorldRenderer_CustomSky"
 	],
